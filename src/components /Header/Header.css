@@ -1,0 +1,20 @@
+.header {
+  border-bottom: groove;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Rajdhani';
+}
+
+.title {
+  margin-left: 25px;
+  font-size: xxx-large;
+}
+
+button {
+  margin-right: 25px;
+  height: 40px;
+  width: 200px;
+  align-self: center;
+  font-family: 'Rajdhani';
+  font-size: 20px;
+}

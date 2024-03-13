@@ -1,0 +1,7 @@
+.form-card {
+  background-color: rgba(253, 250, 250, 0.85);;
+  height: 80%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calculateTotalSpent should calculate the total amount a single user has spent on travel 1`] = `10241`;
+
+exports[`filterUserTrips should filter all trips by user id and return an array of matching trips 1`] = `
+Array [
+  Object {
+    "date": "2022/05/22",
+    "destinationID": 3,
+    "duration": 17,
+    "id": 3,
+    "status": "approved",
+    "suggestedActivities": Array [],
+    "travelers": 4,
+    "userID": 2,
+  },
+  Object {
+    "date": "2022/06/29",
+    "destinationID": 5,
+    "duration": 9,
+    "id": 6,
+    "status": "approved",
+    "suggestedActivities": Array [],
+    "travelers": 3,
+    "userID": 2,
+  },
+]
+`;
+
+exports[`filterUserTrips should return an empty array if there are no trips for given user id 1`] = `Array []`;
